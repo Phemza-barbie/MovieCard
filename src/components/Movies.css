@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    
+    border: black 2px solid;
+    text-align: center;
+}
+/* .card {
+    background-color: black;
+    height: auto;
+    width: 280px;
+    margin-left: 200px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    margin-bottom: 20px;
+} */
+.card img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-self: center;
+    width: 170px;
+    margin-left: 110px;
+    
+}
+.title{
+    justify-content: center;
+    text-align: center;
+    color: blue;
+}
